@@ -1,0 +1,23 @@
+{
+  "name": "calculator-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js"
+  },
+  "author": "Sowmya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "client-sessions": "^0.8.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "express-sessions": "^1.0.6",
+    "mathjs": "^5.1.2",
+    "nodemon": "^1.18.4"
+  }
+}
